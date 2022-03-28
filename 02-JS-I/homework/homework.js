@@ -354,6 +354,17 @@ function esVocal(letra){
    letra = letra.toLowerCase();
 
    
+   if ( letra.lengt >= 2){
+
+    console.log ("Dato incorrecto !");
+    
+    
+
+
+   }
+
+
+   
    
    for (let i = 0 ; i <= 4 ; i++){
        
@@ -376,7 +387,7 @@ function esVocal(letra){
 
 
 }
-  esVocal("C");
+  esVocal("a");
 
 // No modificar nada debajo de esta línea
 // --------------------------------
